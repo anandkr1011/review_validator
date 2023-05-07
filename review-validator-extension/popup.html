@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <style>
+    .popup {
+      width: 250px; /* or any desired width */
+      height: 275px; /* or any desired height */
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    #actionBtn {
+      display: inline-block;
+      border: none;
+      background-color: #00bf63;
+      color: #fff;
+      padding: 10px 20px;
+      border-radius: 20px;
+      border-color: green;
+      font-size: 16px;
+      font-weight: bold;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.25);
+      transition: all 0.3s ease;
+      margin-bottom: 10px;
+    }
+
+    #actionBtn:hover {
+      background-color: #008b48;
+      cursor: pointer;
+      transform: translateY(-2px);
+      box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+      border: none;
+    }
+
+    .content {
+      text-align: center;
+    }
+    .text {
+      font-size: 12px;
+      color: #ababab;
+      margin-bottom: 0;
+    }
+  </style>
+  <body class="popup">
+    <div class="content">
+      <img
+        src="images/img128.png"
+        style="height: 75px; width: 75px; margin-bottom: 10px"
+      />
+      <br />
+      <button id="actionBtn">Validate Reviews</button>
+      <p class="text">[Developed by: Anand & Arvind]</p>
+      <p class="text"><strong>Mentored by: Dr. Pooja Sharma</strong></p>
+    </div>
+    <script src="popup.js"></script>
+  </body>
+</html>

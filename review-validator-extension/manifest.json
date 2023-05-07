@@ -1,0 +1,20 @@
+{
+  "name": "Review Validator",
+
+  "description": "Authenticity validation Chrome extension for e-commerce product reviews enables informed purchasing decisions.",
+
+  "version": "1.0.0",
+
+  "manifest_version": 3,
+  "permissions": ["activeTab", "scripting"],
+
+  "icons": {
+    "16": "images/img16.png",
+    "48": "images/img48.png",
+    "128": "images/img128.png"
+  },
+
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
